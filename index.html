@@ -24,7 +24,7 @@
     <hr>
     <div class="container">
         <div class="row">
-            <h3>Let's look at some random pictures! <small class="text-muted">...from my computer because the link isn't working</small></h3>
+            <h3>Let's look at some random pictures! <small class="text-muted">...from Google because the link isn't working</small></h3>
         </div>
         <div class="row">
             <div class="col">
@@ -49,8 +49,107 @@
             </div>
         </div>
     </div>
+    <button class="btn btn-success w-100 p-3">Thanks for visiting!</button>
     <hr>
-    
+
+    <!--MARK: Step 2-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-4">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!--Source: (https://stackoverflow.com/questions/41513463/bootstrap-align-navbar-items-to-the-right, accessed 28 April 2022)-->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Messages <span class="badge alert-success">12</span></h3></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="my-4">Dashboard</h1>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Team</th>
+            <th scope="col">All Star</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Steph</td>
+            <td>Warriors</td>
+            <td>Yes</td>
+            <td><span class="fa-stack">
+                <i class="fa-solid fa-square fa-stack-2x" style="color:red"></i>
+                <i class="fa-thin fa-trash-can fa-stack-1x fa-inverse"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">Lebron</td>
+            <td>Cavaliers</td>
+            <td>Yes</td>
+            <!--Source: (https://stackoverflow.com/questions/14474452/can-i-change-the-color-of-font-awesomes-icon-color, accessed 28 April 2022)-->
+            <td><span class="fa-stack">
+                <i class="fa-solid fa-square fa-stack-2x" style="color:red"></i>
+                <i class="fa-thin fa-trash-can fa-stack-1x fa-inverse"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">Dwayne</td>
+            <td>Heat</td>
+            <td>Yes</td>
+            <td><span class="fa-stack">
+                <i class="fa-solid fa-square fa-stack-2x" style="color:red"></i>
+                <i class="fa-thin fa-trash-can fa-stack-1x fa-inverse"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">Kobe</td>
+            <td>Lakers</td>
+            <td>Yes <span class="badge alert-warning">Lead</span></td>
+            <td><span class="fa-stack">
+                <i class="fa-solid fa-square fa-stack-2x" style="color:red"></i>
+                <i class="fa-thin fa-trash-can fa-stack-1x fa-inverse"></i>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td scope="row">Isaiah</td>
+            <td>Celtics</td>
+            <td>Yes <span class="badge alert-success">First</span></td>
+            <td><span class="fa-stack">
+                <i class="fa-solid fa-square fa-stack-2x" style="color:red"></i>
+                <i class="fa-thin fa-trash-can fa-stack-1x fa-inverse"></i>
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>    
+      <hr>
+      <h1>Todos</h1>
+      <button class="btn btn-success w-100 text-start">Feel good about Bootstrap.</button>
+      <button class="btn btn-info w-100 text-start">Feel informed about Bootstrap.</button>
+      <button class="btn btn-warning w-100 text-start">Feel warned about Bootstrap.</button>
+      <button class="btn btn-warning w-100 text-start">Maybe I should read the docs...</button>
+      <button class="btn btn-danger w-100 text-start">Danger Zone</button>
+      <button class="btn btn-danger w-100 text-start">I really should read the docs...</button>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://kit.fontawesome.com/67788ea977.js" crossorigin="anonymous"></script>
